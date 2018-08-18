@@ -41,15 +41,18 @@ main {
 	justify-content: center;
 	padding: 0 30px;
 	text-align: center;
+	color: #FAFAFA;
+	background-image: url("../fundo.png");
+	background-size: cover;
 }
 
-main > .intro {
+.intro {
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: 3.75em;
 	font-weight: 600;
 }
 
-main > .tagline {
+.tagline {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: 100;
@@ -65,7 +68,15 @@ main > .tagline {
 
 .devto svg {
 	margin-bottom: -0.20rem;
-	margin-left: 0.675rem;;
+	margin-left: 0.675rem;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a svg path {
+	fill: #FAFAFA;
 }
